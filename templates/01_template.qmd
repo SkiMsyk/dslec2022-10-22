@@ -1,0 +1,73 @@
+---
+title: "2022年度:データサイエンス　第１回課題"
+author: "{学籍番号}:{氏名}"
+date: "提出日"
+output: html_notebook
+---
+
+# Exercise 1.1 {.unnumbered}
+
+次の問いに答えよ
+
+1.  ベクトル空間の定義を述べよ．
+2.  ２次元の実数ベクトル全体の集合$\mathbb{R}$がベクトル空間となっていることを確かめよ．
+
+# Exercise 1.2 {.unnumbered}
+
+次式を計算せよ
+
+1.  行列積の計算
+
+```{=tex}
+\begin{align}
+\begin{pmatrix} 
+  5 & 4 & 2 \\
+  2 & 1 & 3 \\
+  2 & 3 & 4 \\
+  7 & 3 & 3
+\end{pmatrix}
+\begin{pmatrix} 
+  4 & 3 & 1 & 4 \\
+  5 & 5 & 2 & 3 \\
+  3 & 2 & 7 & 3 
+\end{pmatrix}
+\end{align}
+```
+2.  次の行列の逆行列の存在を確かめ，存在するのであれば逆行列を求めよ
+
+```{=tex}
+\begin{align}
+\begin{pmatrix}
+  4 & 3 \\
+  1 & 2
+\end{pmatrix}
+\end{align}
+```
+# Execise 1.3 {.unnumbered}
+
+以下の使用に沿って関数を作成せよ．
+
+1.  １つの数値`x`を受け取り，その値が偶数であれば`TRUE`，奇数であれば`FALSE`を返す関数．関数名は`is_even`とする．
+
+```{r, eval=FALSE}
+is_even <- function(x) {
+  # ここに処理を書く
+}
+```
+
+2.  ２つの数値`x,y`と`add`または`sub`という文字列を受け取り，`add`ならば足し算，`sub`ならば引き算の結果を返す関数．関数名は`exfn1`とする
+
+```{r, eval=FALSE}
+exfn <- funciont(x, y, operator) {
+  # ここに処理を書く
+}
+
+```
+
+# Execise 1.4 {.unnumbered}
+
+ウェブサイトで公開されているCSV形式のオープンデータを探し， R上に読み込んでみよう． 取得したサイトのURLと，読み込むためのプログラムを実装し， 実際に読み込み，データの先頭５行までを表示させよ．
+
+# Execise 1.4 {.unnumbered}
+
+R上にデフォルトで読み込まれている`iris`のデータセットを利用し， 3種類以上図を作成しなさい． 作成した図をもとに簡単な考察も加えよ．
